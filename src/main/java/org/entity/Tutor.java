@@ -14,6 +14,7 @@ public class Tutor {
 
     // 필드
     private String name;
+//    private Integer age;
 
     // 기본 생성자
     public Tutor() {
@@ -24,4 +25,10 @@ public class Tutor {
         this.id = id;
         this.name = name;
     }
+
+//    public Tutor(Long id, String name, Integer age) {
+//        this.id = id;
+//        this.name = name;
+//        this.age = age;
+//    }
 }

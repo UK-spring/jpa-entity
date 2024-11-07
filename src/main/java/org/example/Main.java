@@ -17,6 +17,7 @@ public class Main {
         try {
 
             Tutor tutor = new Tutor(1L, "wonuk");
+//            Tutor tutor = new Tutor(2L, "wonuk", 100);
             em.persist(tutor);
 
             transaction.commit();
