@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+import org.entity.Board;
 import org.entity.Tutor;
 
 public class BoardMain {
@@ -15,6 +16,9 @@ public class BoardMain {
         transaction.begin();
 
         try {
+
+//            Board board = new Board();
+//            em.persist(board);
 
             transaction.commit();
 

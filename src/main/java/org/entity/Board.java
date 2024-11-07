@@ -8,6 +8,7 @@ import java.util.Date;
 @Table(name = "board")
 public class Board {
     @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     // @Column을 사용하지 않아도 자동으로 매핑된다.
